@@ -7,8 +7,10 @@
 /* .css */
 
 @import 'nav.css';
+@import 'container.css';
 @import 'section-greyscale.css';
 @import 'section-build-with-bootstrap.css';
+@import 'section-lighter.css';
 
 
 /* geral style */
