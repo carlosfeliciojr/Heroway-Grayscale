@@ -28,6 +28,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-color: #000000;
 }
 
 p h2 a {

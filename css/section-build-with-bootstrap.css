@@ -44,3 +44,19 @@
 .section-build-with-bootstrap > .tablet > img {
     width: 1140px;
 }
+
+@media (min-width: 599px) {
+    .section-build-with-bootstrap > .text > .text-paragraph {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .section-build-with-bootstrap > .tablet {
+        height: 200px;
+    }
+
+    .section-build-with-bootstrap > .tablet > img {
+        width: 70%;
+    }
+}

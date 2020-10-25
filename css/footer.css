@@ -21,3 +21,8 @@ footer {
     padding-top: 40px;
 }
 
+@media (max-width: 599px) {
+    footer {
+        padding: 20px 0;
+    }
+}

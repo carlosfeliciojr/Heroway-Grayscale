@@ -123,3 +123,28 @@
 .social-media > img {
     width: 50px;
 }
+
+@media (max-width: 599px) {
+    .section-contact > .bg-contact {
+        height: 100%;
+    }
+    
+    .bg-contact > .transparence {
+        padding: 0;
+        height: 600px;
+    }
+
+    .bg-media {
+        flex-direction: column;
+    }
+
+    .bg-contact > .transparence > .form > input {
+        width: 300px;
+    }
+
+    .bg-contact > .transparence > .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
