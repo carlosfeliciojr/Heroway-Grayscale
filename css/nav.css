@@ -1,7 +1,6 @@
 /* class */
 
 .nav {
-    position: fixed;
     display: flex;
     align-content: center;
     align-items: center;
