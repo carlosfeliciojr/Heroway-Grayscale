@@ -17,7 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(180deg,  #45454550, #1c1c1c);
+    background: linear-gradient(180deg,  #45454550, black);
     width: 100%;
     padding: 450px 0px;
 }
