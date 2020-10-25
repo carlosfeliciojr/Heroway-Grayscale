@@ -1,0 +1,147 @@
+.section-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.bg-contact {
+    background: url(../img/bg-signup.jpg) no-repeat;
+    background-size: 100% 100%;  
+    width: 100%;
+}
+
+.bg-contact > .transparence {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg,  #45454550, #1c1c1c);
+    width: 100%;
+    padding: 450px 0px;
+}
+
+.bg-contact > .transparence > .icon > img {
+    width: 50px;
+    padding-bottom: 20px;
+    -webkit-filter: invert(100%);
+}
+
+.bg-contact > .transparence > .subscribe > h1 {
+    color: white;
+    padding-bottom: 60px;
+}
+
+.bg-contact > .transparence > .form > input {
+    height: 50px;
+    width: 500px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.bg-contact > .transparence > .form > button {
+    color: white;
+    height: 50px;
+    background-color: #64a19d;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 0 35px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.bg-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: black;
+    width: 100%;
+}
+
+.bg-media > .cardbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 350px;
+    margin: 10px;
+    padding: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.bg-media > .cardbox > .address  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.bg-media > .cardbox > .address > img {
+    width: 20px;
+}
+
+.bg-media > .cardbox > .address > h1 {
+    padding: 10px 0 30px 0;
+    text-transform: uppercase;
+}
+
+.bg-media > .cardbox > .email  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.bg-media > .cardbox > .email > img {
+    width: 20px;
+}
+
+.bg-media > .cardbox > .email > h1 {
+    padding: 10px 0 30px 0;
+    text-transform: uppercase;
+}
+
+.bg-media > .cardbox > .phone  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.bg-media > .cardbox > .phone > img {
+    width: 20px;
+}
+
+.bg-media > .cardbox > .phone > h1 {
+    padding: 10px 0 30px 0;
+    text-transform: uppercase;
+}
+
+.green-detail-contact {
+    width: 100px;
+    height: 5px;
+    background-color: #64a19d;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-media > img {
+    width: 50px;
+}

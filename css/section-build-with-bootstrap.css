@@ -4,6 +4,7 @@
 
 .section-build-with-bootstrap > .text {
     background-color: hsl(0, 0%, 11%);
+    padding-top: 150px;
     text-align: center;
     
 }

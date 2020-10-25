@@ -8,9 +8,10 @@
 
 @import 'nav.css';
 @import 'container.css';
-@import 'section-greyscale.css';
+@import 'section-about.css';
 @import 'section-build-with-bootstrap.css';
-@import 'section-lighter.css';
+@import 'section-projects.css';
+@import 'section-contact.css';
 
 
 /* geral style */
