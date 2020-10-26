@@ -143,6 +143,7 @@
 @media (max-width: 599px) {
     .first-block {
         flex-direction: column;
+        width: auto;
     }
 
     .first-block-img > img {
