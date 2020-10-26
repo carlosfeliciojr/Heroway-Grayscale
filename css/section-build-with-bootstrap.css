@@ -48,7 +48,7 @@
     width: 1140px;
 }
 
-@media (min-width: 599px) {
+@media (max-width: 599px) {
     .section-build-with-bootstrap > .text > .text-paragraph {
         display: flex;
         flex-direction: column;
@@ -57,9 +57,14 @@
 
     .section-build-with-bootstrap > .tablet {
         height: 200px;
+        padding-top: 0;
     }
 
     .section-build-with-bootstrap > .tablet > img {
         width: 70%;
+    }
+
+    .section-build-with-bootstrap > .text > .text-paragraph> h2 {
+        width: auto;
     }
 }
