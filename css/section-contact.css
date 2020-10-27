@@ -153,4 +153,8 @@
         flex-direction: column;
     }
 
+    .bg-media > .cardbox {
+        width: 300px;
+    }
+    
 }
