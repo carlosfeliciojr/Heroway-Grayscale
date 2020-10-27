@@ -54,6 +54,12 @@
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+.bg-contact > .transparence > .form > button:hover {
+    background-color: #487c79;
+    transition: 400ms;
+}
+
+
 .bg-media {
     display: flex;
     flex-direction: row;

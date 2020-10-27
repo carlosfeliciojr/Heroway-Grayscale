@@ -42,7 +42,6 @@
     width: 500px;
 }
 
-
 .section-greyscale > .transparence > .section-greyscale-content > .btn-get-started {
     color: white;
     font-size: 10px;
@@ -53,6 +52,11 @@
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     margin: 40px;
     padding: 20px 30px;
+}
+
+.section-greyscale > .transparence > .section-greyscale-content > .btn-get-started:hover {
+    background-color: #487c79;
+    transition: 400ms;
 }
 
 @media (max-width: 599px) {
